@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "uplifted-scout-400906",
+  "private_key_id": "b2cdcfb96410e33a1e4a2f093be33465d31e8b0f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDiLw2RdMpYjOjC\neWyUp79QZRBi2CEVgwvhRKOH+rWAOJcN3Y3x95dkzvVY/jTEB5cmq8/Gu4ydM9Rt\ndd8Dt4uJQy5UONjJHntzN6R/D3aU4ukWbp8g+dX8rVC34b4oXPZlij/DlHY+wOUa\nPhpGbgWt/vpXP3WHZwYPnx/ymXmk/7cUF57ginEdn6lskgBAditTbTz+Sc3aLj/+\nPD6lKrNt+DytTffFlLp+/xpqbUR2eIB520FwNBFaIvwEloOYaIKNtzwyGlkvBXNH\nzHCqp6O00DYldN3ag7m3al+jaPZnX3h7bwE6dSp7H2ovRZGrh8pnN6QvN7zi2tBq\n5v7ewqy3AgMBAAECggEAAuz1FRJFXCmo1XvvMOl0jfLCTsz/eVqorvrAzloqhwr0\nWG93tEJtsmLQHwN2vw+SeT0USTx7mdYl45HFPZqRRi6/LPa2EyMYsxZSqeDgBnzJ\nSaSxQtXVQNkkp9dv94l9F5yKRs2nGkux170ntAzpq0tjhV8vdkqZjcUspOousR9Z\nZ4wub7w0Mjg+BMSgGZttU15XJs/PChxEGerSdLbNIz/sgeR1ijqblh+0ZxaZr9QJ\npKuEZ5WD5QVPF6Xiy62iDlp7csCG/41WHdPDj5F179aZyJJ17criEDqVQQfxa05G\nWNDLEx4Uc40dRZ11CjOhL3EkyL43K0y3r89OVNHOoQKBgQD6Plwi1LpxUioHUkhJ\nTyXT98oBh2X0F0Jky4CL+YeXzVYmH6VVUpO9pnXGx8zB1j+kM+Zrgm6u7Y5RebdK\ndSx3D23DgeSt46E7oVOtdpWucIXu4bXMZlbtCzTIYVoudlBhxsnxCP5sHih+k6IM\nHHeOqSbmzdXhX3DmAEdVVrym4QKBgQDnYwJeBeGYkPOkwdIaxZtv6VAl027QCAvG\nANY4l/2CWa0fsueXKISPyVGSFvQ6+/2WczT8nSH7bvckcKpcc5YeheK7kc5m/WBF\nT7cBzAbflXwhhg0DLwPNVV9FadyDna4pu/Dd2P5RZPpLsYZFq16TDrBdn0qCeySk\nd24u6gn+lwKBgQCnGktGSw1xLK+6Ed0JbxvQju/K05JmS73fNvFRB0DfQpPbg1hR\nQII9q1GMetElQx9eU/XzJrcogqN9jqyxwMr/ekMOwcdlwtJg0lrhQ4WyZZtaKEjR\nBCnZwpjtkey5h/InSKqDFUFoCz95PraAJeZEUnoSt7Kx+5yVSexYdUImoQKBgHe9\nwgzcKEnmwV9CujMGjhDVAZgBmbfoYgdeiX2SEivxsmjUEYsk+azbNu5OGKepnirM\nheAwhNR0MUtXTqI3Yrl6+cGti826U6aqwP8aEXiFCE7k6zj5jJMnGf128hnecLHC\nQ7zavYlroyemv+Cv9WpO0LAybcGmbmj6MTfv/6oTAoGAAQlTjxtvWEvClUyoXu3D\nZtfZ0Gob/EhTWIq58jQIuLUS+T3gzGyjTHqJmyCIlNUrtRBQPWXqlbk6HYCMfYL2\nrFRuF8zBsZa77HKBTNjOyAqRfvfsOXJMQ3t2/beLHSJqtfH1UuVaGbMG7fD8EUDO\nHZkbntQEz7oxvAqiHzvnZtU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "tashkent@uplifted-scout-400906.iam.gserviceaccount.com",
+  "client_id": "107063720336203656482",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tashkent%40uplifted-scout-400906.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

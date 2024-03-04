@@ -69,6 +69,24 @@ app.use(cookieParser());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // MENU
+app.post("/add-menu", async (req, res) => {
+    const {meal_name, description_eng, description_kor, description_uz, image, price, menu_id} = req.body;
+    console.log("adding new menu item")
+    try {
+        let menu_item = await menu.insertOne({
+            name:meal_name,
+            description_eng,
+            description_kor,
+            description_uz,
+            image,
+            price,
+            menu_id
+        })
+        res.send(menu_item)
+    } catch (error) {
+        res.status(509).send(error);
+    }
+})
 app.post("/menu", async (req, res) => {
     const {token} = req.body;
     console.log("Inside /menu route");

@@ -71,6 +71,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // MENU
 app.post("/add-menu", async (req, res) => {
     const {meal_name, description_eng, description_kor, description_uz, image, price, menu_id} = req.body;
+    let menuId = parseInt(menu_id);
     console.log("adding new menu item")
     try {
         let menu_item = await menu.insertOne({
@@ -80,7 +81,7 @@ app.post("/add-menu", async (req, res) => {
             description_uz,
             image,
             price,
-            menu_id
+            menu_id: menuId
         })
         res.send(menu_item)
     } catch (error) {

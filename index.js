@@ -72,6 +72,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.post("/add-menu", async (req, res) => {
     const {meal_name, description_eng, description_kor, description_uz, image, price, menu_id} = req.body;
     let menuId = parseInt(menu_id);
+    let price_int = parseInt(price)
     console.log("adding new menu item")
     try {
         let menu_item = await menu.insertOne({
@@ -80,7 +81,7 @@ app.post("/add-menu", async (req, res) => {
             description_kor,
             description_uz,
             image,
-            price,
+            price:price_int,
             menu_id: menuId
         })
         res.send(menu_item)
@@ -237,7 +238,9 @@ app.post("/sign-up", async (req, res) => {
                 client_id
             }
             res.cookie('clientId', client_id, { maxAge: 86400000, httpOnly: true }); // maxAge is in milliseconds (1 day in this example)
-            res.send(success);
+            let token = jwt.sign({client_id},"my_client_id");
+            
+            res.send(token);
         } catch (error) {
             res.send(error);
         }
